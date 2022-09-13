@@ -1,0 +1,185 @@
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 650;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Montserrat;
+    color: #8f8f8f;
+}
+
+/* <!-- Nav Bar --> <!-- Title -->*/
+
+#title {
+    background-color: #ff4e68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    color: rgb(225, 210, 210);
+}
+
+.button {
+    margin: 5% 3% 5% 0;
+}
+
+.anime {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+/* <!-- Features --> */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature {
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.icon {
+    margin: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4e68;
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.here {
+    border-radius: 50%;
+    width: 20%;
+    margin: 20px;
+}
+
+/* <!-- Press --> */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* <!-- Pricing --> */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price {
+    padding: 3% 2%;
+}
+
+/* <!-- Call to Action --> */
+
+#cta {
+    background-color: #ff4e68;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    padding: 7% 15%;
+}
+
+.class {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 1.5rem;
+}
+
+.bot {
+    margin: 0px 18px;
+}
+
+/* <!-- Footer --> */
+
+#footer {
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.icons {
+    margin: 1rem;
+}
+
+/* Bootstrap responsiveness */
+
+@media (max-width: 991px) {
+    .anime {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
